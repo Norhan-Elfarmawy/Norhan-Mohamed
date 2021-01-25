@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ResetAssured">
+
+	<test name="APIs">
+
+		<classes>
+
+			<class name="APITestCases.ProductItem" />
+
+			<class name="APITestCases.ServiceItem" />
+
+			<class name="APITestCases.UtilitiesItem" />
+
+			<class name="APITestCases.StoreItem" />
+
+			<class name="APITestCases.CategoriesItem" />
+			
+			<class name="APITestCases.SendInvalidProductData" />
+
+			<class name="APITestCases.SendInvalidServiceData" />
+
+			<class name="APITestCases.SendInvalidStoreData" />
+
+			<class name="APITestCases.SendInvalidCategoryData" />
+ 
+		</classes>
+
+	</test>
+
+</suite>

@@ -1,0 +1,33 @@
+{
+	"AddProduct": {
+		"name": "Product Under Test",
+		"type": "testing ",
+		"price": 10,
+		"shipping": 3,
+		"upc": "2298999",
+		"description": "test Add Product",
+		"manufacturer": "Egypt",
+		"model": "new",
+		"url": "http://localhost:3030/products",
+		"image": "testImag.png"
+	},
+	"FirstCategory": {
+		"name": "FirstCategory UnderTest1",
+		"id": "101"
+	},
+	"SecondCategory": {
+		"name": "SecondCategory UnderTest1",
+		"id": "201"
+	},
+	"ThirdCategory": {
+		"name": "ThirdCategory UnderTest1",
+		"id": "301"
+	},
+	"FourthCategory": {
+		"name": "FourthCategory UnderTest1",
+		"id": "401"
+	},
+	"AddService": {
+		"name": "Service Under Test"
+	}
+}
